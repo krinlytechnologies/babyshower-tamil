@@ -99,26 +99,37 @@ export default function Home() {
           <div style={{ height: '4cqw' }} />
           <Ornament />
           <h1 className="title hero-names">
-            ராஜகோபால்
+            {invitationData.groomTamil}
             <span className="amp">&amp;</span>
-            சுபிக்ஷா
+            {invitationData.brideTamil}
           </h1>
           <p className="hero-latin latin">{invitationData.coupleEnglish}</p>
         </motion.div>
         <div className="scroll-cue" aria-hidden="true" />
       </section>
 
-      {/* 2 — Welcome */}
+      {/* 2 — Welcome / Family intro */}
       <Scene image={welcomeImage} position="18% center" scrim="top" align="start">
-        <Reveal className="stack">
+        <Reveal className="card stack">
           <p className="eyebrow">அன்புடன் அழைக்கிறோம்</p>
           <Ornament />
-          <h2 className="heading">
-            ஒரு புதிய
-            <br />
-            வாழ்க்கையின் வருகை...
-          </h2>
-          <p className="accent-text">{invitationData.couple}</p>
+
+          {/* Groom's side */}
+          <p className="family-line">
+            திரு. R. அசோகன் - திருமதி G. வரலட்சுமி அவர்களின் மகன்
+          </p>
+          <p className="family-name">{invitationData.groomTamil}, MBA (H.R.)</p>
+
+          <div className="heart-divider" aria-hidden="true">♥</div>
+
+          {/* Bride's side */}
+          <p className="family-line">
+            திரு. S. கண்ணன் - திருமதி K. ஸ்ரீதேவி அவர்களின் மகள்
+          </p>
+          <p className="family-name">{invitationData.brideTamil}, M.Sc. (Dietician)</p>
+
+          <Ornament />
+          <p className="both-families">இரு வீட்டார் அழைப்பு!</p>
         </Reveal>
       </Scene>
 

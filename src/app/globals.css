@@ -486,6 +486,46 @@ a {
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
 }
 
+/* ---------- Welcome / family intro ---------- */
+
+.family-line {
+  margin: 0;
+  color: var(--ivory-dim);
+  font-size: 3.6cqw;
+  line-height: 1.75;
+  text-align: center;
+  text-wrap: balance;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.family-name {
+  margin: 1.2cqw 0 0;
+  color: var(--ivory);
+  font-size: 5.2cqw;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+
+.heart-divider {
+  margin: 3cqw 0;
+  color: var(--gold);
+  font-size: 6cqw;
+  line-height: 1;
+  text-align: center;
+}
+
+.both-families {
+  margin: 0;
+  color: var(--gold-soft);
+  font-size: 5cqw;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
