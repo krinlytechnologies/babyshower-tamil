@@ -166,10 +166,11 @@ a {
 .title {
   margin: 0;
   color: var(--ivory);
-  font-size: 10cqw;
+  font-size: 8.6cqw;
   font-weight: 700;
   line-height: 1.35;
   text-wrap: balance;
+  white-space: nowrap;
   text-shadow: 0 2px 24px rgba(0, 0, 0, 0.7);
 }
 
@@ -309,10 +310,10 @@ a {
 .details-panel {
   position: absolute;
   z-index: 2;
-  left: 27%;
-  right: 27%;
-  top: 21%;
-  height: 40%;
+  left: 24%;
+  right: 24%;
+  top: 8%;
+  height: 58%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -480,9 +481,10 @@ a {
 .signature {
   margin: 0;
   color: var(--ivory);
-  font-size: 6.6cqw;
+  font-size: 5.4cqw;
   font-weight: 600;
   line-height: 1.5;
+  white-space: nowrap;
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
 }
 
@@ -501,10 +503,11 @@ a {
 .family-name {
   margin: 1.2cqw 0 0;
   color: var(--ivory);
-  font-size: 5.2cqw;
+  font-size: 4.4cqw;
   font-weight: 700;
   line-height: 1.4;
   text-align: center;
+  white-space: nowrap;
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
 }
 
