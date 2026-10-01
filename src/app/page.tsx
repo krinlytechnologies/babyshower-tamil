@@ -56,7 +56,7 @@ function Scene({
 }: {
   image: string;
   position?: string;
-  scrim?: 'top' | 'bottom' | 'even';
+  scrim?: 'top' | 'bottom' | 'even' | 'veil';
   align?: 'start' | 'center' | 'end';
   children: React.ReactNode;
 }) {
@@ -116,7 +116,10 @@ export default function Home() {
 
           {/* Groom's side */}
           <p className="family-line">
-            திரு. R. அசோகன் - திருமதி G. வரலட்சுமி அவர்களின் மகன்
+            <span className="family-parents">
+              திரு. R. அசோகன் - திருமதி G. வரலட்சுமி
+            </span>
+            <span className="family-relation">அவர்களின் மகன்</span>
           </p>
           <p className="family-name">{invitationData.groomTamil}, MBA (H.R.)</p>
 
@@ -124,7 +127,10 @@ export default function Home() {
 
           {/* Bride's side */}
           <p className="family-line">
-            திரு. S. கண்ணன் - திருமதி K. ஸ்ரீதேவி அவர்களின் மகள்
+            <span className="family-parents">
+              திரு. S. கண்ணன் - திருமதி K. ஸ்ரீதேவி
+            </span>
+            <span className="family-relation">அவர்களின் மகள்</span>
           </p>
           <p className="family-name">{invitationData.brideTamil}, M.Sc. (Dietician)</p>
 
@@ -216,7 +222,7 @@ export default function Home() {
       </Scene>
 
       {/* 8 — Closing */}
-      <Scene image={closingImage} position="center center" scrim="even" align="center">
+      <Scene image={closingImage} position="center center" scrim="veil" align="center">
         <Reveal className="stack">
           <h2 className="heading">
             உங்கள் வருகைக்காக
