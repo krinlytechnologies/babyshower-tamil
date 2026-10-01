@@ -1,7 +1,7 @@
 export const invitationData = {
   groomTamil: 'A இராஜ் கோபால்',
-  brideTamil: 'K சுபிக்ஷா',
-  couple: 'A இராஜ் கோபால் & K சுபிக்ஷா',
+  brideTamil: 'K சுபிக்க்ஷா',
+  couple: 'A இராஜ் கோபால் & K சுபிக்க்ஷா',
   coupleEnglish: 'A Raj Gopal & K Subiksha',
   eventTitle: 'தாய்மை விழா',
   dateNumber: '25',

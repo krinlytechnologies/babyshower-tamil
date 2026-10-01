@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata = {
-  title: 'தாய்மை விழா | ராஜகோபால் & சுபிக்ஷா',
+  title: 'தாய்மை விழா | ராஜகோபால் & சுபிக்க்ஷா',
   description: 'A Tamil baby shower invitation for Rajgopal and Subiksha.',
 };
 
