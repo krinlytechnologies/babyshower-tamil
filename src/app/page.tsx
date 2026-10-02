@@ -1,6 +1,7 @@
 'use client';
 
 import { motion, useReducedMotion } from 'framer-motion';
+import { BackgroundMusic } from '@/components/background-music';
 import { Countdown } from '@/components/countdown';
 import { invitationData } from '@/data/invitation';
 
@@ -77,6 +78,8 @@ export default function Home() {
 
   return (
     <main className="invitation-shell">
+      <BackgroundMusic />
+
       {/* 1 — Hero */}
       <section className="scene">
         <video
