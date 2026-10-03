@@ -102,9 +102,9 @@ export default function Home() {
           <div style={{ height: '4cqw' }} />
           <Ornament />
           <h1 className="title hero-names">
-            {invitationData.groomTamil}
-            <span className="amp">&amp;</span>
             {invitationData.brideTamil}
+            <span className="amp">&amp;</span>
+            {invitationData.groomTamil}
           </h1>
           <p className="hero-latin latin">{invitationData.coupleEnglish}</p>
         </motion.div>
