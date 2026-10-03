@@ -9,7 +9,7 @@ export const invitationData = {
   weekdayText: 'ஞாயிற்றுக்கிழமை',
   timeText: 'காலை 10:00 மணி முதல்',
   venueName: 'Raj Banquets',
-  venueCity: 'Adayar , Chennai',
+  venueCity: 'Adyar ~ Chennai',
   mapUrl: 'https://maps.app.goo.gl/wmBk3RXfisZcpVZh7',
   countdownTarget: '2026-10-25T10:00:00+05:30',
 };

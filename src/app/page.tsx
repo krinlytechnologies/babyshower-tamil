@@ -118,24 +118,26 @@ export default function Home() {
           <Ornament />
 
           {/* Groom's side */}
+          
+          <p className="family-name">{invitationData.groomTamil}, MBA (H.R.)</p>
           <p className="family-line">
             <span className="family-parents">
               திரு. R. அசோகன் - திருமதி G. வரலட்சுமி
             </span>
-            <span className="family-relation">அவர்களின் மகன்</span>
+            
           </p>
-          <p className="family-name">{invitationData.groomTamil}, MBA (H.R.)</p>
 
           <div className="heart-divider" aria-hidden="true">♥</div>
 
           {/* Bride's side */}
+          
+          <p className="family-name">{invitationData.brideTamil}, M.Sc. (Dietician)</p>
           <p className="family-line">
             <span className="family-parents">
               திரு. S. கண்ணன் - திருமதி K. ஸ்ரீதேவி
             </span>
-            <span className="family-relation">அவர்களின் மகள்</span>
+            
           </p>
-          <p className="family-name">{invitationData.brideTamil}, M.Sc. (Dietician)</p>
 
           <Ornament />
           <p className="both-families">இரு வீட்டார் அழைப்பு!</p>
